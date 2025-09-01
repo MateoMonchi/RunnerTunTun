@@ -1,13 +1,13 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float playerSpeed = 2;
-    public float horizontalSpeed = 3;
-    public float rightLimit = 5.5f;
-    public float leftLimit = -5.5f;
+    public float playerSpeed = 5f;
+
+    public float[] lanePositions = { -3f, 0f, 3f }; 
+    private int currentLane = 1; 
+    public float laneChangeSpeed = 8f;
 
     public float jumpHeight = 2f;
     public float jumpSpeed = 5f;
@@ -23,20 +23,24 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed, Space.World);
 
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if (transform.position.x > leftLimit)
-            {
-                transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed);
-            }
+            if (currentLane > 0)
+                currentLane--;
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (transform.position.x < rightLimit)
-            {
-                transform.Translate(Vector3.right * Time.deltaTime * horizontalSpeed);
-            }
+            if (currentLane < lanePositions.Length - 1)
+                currentLane++;
         }
+
+        Vector3 targetPosition = new Vector3(
+            lanePositions[currentLane], 
+            transform.position.y,
+            transform.position.z
+        );
+
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, laneChangeSpeed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
@@ -65,5 +69,4 @@ public class PlayerMovement : MonoBehaviour
         isJumping = false;
     }
 }
-
 
