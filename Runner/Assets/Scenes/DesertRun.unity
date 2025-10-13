@@ -7418,6 +7418,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: PezGato
       objectReference: {fileID: 0}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
+    - target: {fileID: 8735821857640412529, guid: 2ff32b7be3aae124cb4fd2ea64e1917b, type: 3}
+      propertyPath: m_Materials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b658d31c87ea824782c81ec53859ba7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14696,7 +14728,7 @@ Animator:
   m_GameObject: {fileID: 1443620235}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 334d66cd003c88b4ca61fc86fa90b590, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -17221,7 +17253,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785664666}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: dbbc8c1f7e67368438c6cf862c46d3ec, type: 2}
   m_CullingMode: 0
