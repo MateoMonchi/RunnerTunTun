@@ -9,8 +9,15 @@ public class CollisionDetect : MonoBehaviour
     [SerializeField] AudioSource collisonFX;
     [SerializeField] GameObject mainCam;
     [SerializeField] GameObject fadeOut;
+    
     void OnTriggerEnter(Collider other)
     {
+        PlayerMovement pm = thePlayer.GetComponent<PlayerMovement>();
+        if (pm != null && pm.isInvulnerable)
+        {
+            return;
+        }
+
         StartCoroutine(CollisionEnd());
     }
 

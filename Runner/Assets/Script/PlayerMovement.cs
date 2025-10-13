@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float[] lanePositions = { -3f, 0f, 3f }; 
     private int currentLane = 1; 
     public float laneChangeSpeed = 8f;
+    public bool isInvulnerable = false;
+    private float normalSpeed;
 
     public float jumpHeight = 2f;
     public float jumpSpeed = 5f;
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         startY = transform.position.y;
+        normalSpeed = playerSpeed;
     }
 
     void Update()
@@ -48,6 +51,21 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void ActivatePowerUp(float boostSpeed, float duration)
+    {
+        StartCoroutine(PowerUpRoutine(boostSpeed, duration));
+    }
+
+    private IEnumerator PowerUpRoutine(float boostSpeed, float duration)
+    {
+        isInvulnerable = true;
+        playerSpeed = boostSpeed;
+
+        yield return new WaitForSeconds(duration);
+
+        isInvulnerable = false;
+        playerSpeed = normalSpeed;
+    }
     IEnumerator JumpArcade()
     {
         isJumping = true;
