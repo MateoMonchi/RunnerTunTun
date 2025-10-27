@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class CollisionDetect : MonoBehaviour
 {
     [SerializeField] GameObject thePlayer;
-    [SerializeField] GameObject playerAnim;
     [SerializeField] AudioSource collisonFX;
     [SerializeField] GameObject mainCam;
     [SerializeField] GameObject fadeOut;
+ 
     
     void OnTriggerEnter(Collider other)
     {
@@ -17,7 +18,6 @@ public class CollisionDetect : MonoBehaviour
         {
             return;
         }
-
         StartCoroutine(CollisionEnd());
     }
 
@@ -25,11 +25,12 @@ public class CollisionDetect : MonoBehaviour
     {
         collisonFX.Play();
         thePlayer.GetComponent<PlayerMovement>().enabled = false;
-        playerAnim.GetComponent<Animator>().Play("Stumble Backwards");
         mainCam.GetComponent<Animator>().Play("CollisionCam");
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         fadeOut.SetActive(true);
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(0);
+        thePlayer.GetComponent<PlayerMovement>().enabled = false;
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(2);
+
     }
 }

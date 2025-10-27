@@ -17,6 +17,7 @@ public class MainMenuControl : MonoBehaviour
     }
     public void StartGame()
     {
+        MasterInfo.coinCount = 0;
         SceneManager.LoadScene(1);
     }
 }
