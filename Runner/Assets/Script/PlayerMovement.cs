@@ -16,6 +16,9 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping = false;
     private float startY;
 
+    public bool isMagnetActive = false;
+    private float magnetRange;
+
     void Start()
     {
         startY = transform.position.y;
@@ -35,6 +38,10 @@ public class PlayerMovement : MonoBehaviour
         {
             if (currentLane < lanePositions.Length - 1)
                 currentLane++;
+        }
+        if (isMagnetActive)
+        {
+            AttractCoins();
         }
 
         Vector3 targetPosition = new Vector3(
@@ -65,6 +72,38 @@ public class PlayerMovement : MonoBehaviour
 
         isInvulnerable = false;
         playerSpeed = normalSpeed;
+    }
+    public void ActivateMagnetPowerUp(float duration, float radius)
+    {
+        StopCoroutine("MagnetPowerUpRoutine");
+
+        magnetRange = radius;
+        StartCoroutine("MagnetPowerUpRoutine", duration);
+    }
+    private IEnumerator MagnetPowerUpRoutine(float duration)
+    {
+        isMagnetActive = true;
+
+
+        yield return new WaitForSeconds(duration);
+
+        isMagnetActive = false;
+    }
+    private void AttractCoins()
+    {
+        
+        
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, magnetRange);
+
+        foreach (var hitCollider in hitColliders)
+        {
+            CollectCoin coinScript = hitCollider.GetComponent<CollectCoin>();
+
+            if (coinScript != null)
+            {
+                coinScript.StartAttraction(transform);
+            }
+        }
     }
     IEnumerator JumpArcade()
     {
