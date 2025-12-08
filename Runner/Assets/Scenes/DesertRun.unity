@@ -171,7 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &931625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,7 +534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &40415031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,7 +902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &74267614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1025,7 +1022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &79138257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,7 +1357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &138527513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,7 +1492,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &151727363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,7 +1807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &173185579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2149,7 +2142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &184802140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2342,7 +2334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &189132427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,7 +2526,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &202806521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3142,7 +3132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &305859659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3278,7 +3267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &306455256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3746,7 +3734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &339780030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4475,7 +4462,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &428656584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4658,7 +4644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &439017331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5373,7 +5358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &589687178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5632,7 +5616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &605796356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5902,7 +5885,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &608603535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6186,7 +6168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!1001 &634361126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6728,7 +6709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &679679652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7273,7 +7253,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &707070890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7540,11 +7519,6 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
   m_PrefabInstance: {fileID: 8301083427434097451}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &722936758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 896318181403285778, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
-  m_PrefabInstance: {fileID: 4037004019647995519}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &725058791 stripped
 Transform:
@@ -8276,7 +8250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &890471592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8676,7 +8649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &921249708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8869,7 +8841,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &926072849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9005,7 +8976,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &929042884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9880,7 +9850,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &995585729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10043,7 +10012,7 @@ MonoBehaviour:
   creatingSegment: 0
   segmentNum: 0
   obstaclePrefab: {fileID: 720812103}
-  powerUpPrefab: {fileID: 722936758}
+  powerUpPrefab: {fileID: 2384920342223387201, guid: 15c3243d28eea494c91c9a506a64c4d2, type: 3}
   powerUpSpawnChance: 0.2
 --- !u!4 &1010310469
 Transform:
@@ -10483,7 +10452,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1101077829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10807,7 +10775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1134047535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11097,7 +11064,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1157415445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11356,7 +11322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1172135461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11477,7 +11442,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1176052968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12291,7 +12255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1280473659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12427,7 +12390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1282461593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12694,7 +12656,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1319457325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12975,7 +12936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1332929362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13193,7 +13153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1349031518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13399,6 +13358,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4508970561002598, guid: 21cba551342e0284a87bcb1672a662d2, type: 3}
   m_PrefabInstance: {fileID: 1351941259}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1365760210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.61237246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3535534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.61237246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.3535534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944491448357404852, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752658489906076174, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_Name
+      value: PoteProteinas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112915329859664859, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dbc7021c7cdf0824285e7cb42d782d13, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d13f5733b1f7a542bacae05890007fe, type: 3}
 --- !u!4 &1368744065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4777469181809006, guid: 2bd413b982191d54396bb381188bb4d0, type: 3}
@@ -13438,7 +13458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1371225095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13574,7 +13593,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1379045912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13896,7 +13914,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1397405472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14390,7 +14407,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1435641518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15320,7 +15336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1516357443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15456,7 +15471,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1538867274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16028,7 +16042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1605898950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16589,7 +16602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1723367771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16797,7 +16809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1739366891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17084,7 +17095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1784493200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17538,7 +17548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1835221127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17756,7 +17765,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1855770101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18213,7 +18221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1956981980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18529,7 +18536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &1979251231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18779,7 +18785,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &2005063440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18923,7 +18928,6 @@ MonoBehaviour:
   isInvulnerable: 0
   jumpHeight: 2.5
   jumpSpeed: 5
-  isMagnetActive: 0
 --- !u!136 &2011927542
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19721,7 +19725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &2074113663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19842,7 +19845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &2076498439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20424,7 +20426,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinFX: {fileID: 828785667}
-  attractionSpeed: 20
 --- !u!114 &2111095885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20733,6 +20734,7 @@ Transform:
   - {fileID: 1332929366}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &4037004019647995519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20854,6 +20856,8 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 272c380eb1ee67e4e90d49dab165adec, type: 3}
 >>>>>>> 47ad545fbbf693c758cb1f46f3b483710785dbc9
+=======
+>>>>>>> parent of ebfbc81 (PowerUp Magnet)
 --- !u!1001 &8301083427434097451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20957,8 +20961,12 @@ SceneRoots:
   - {fileID: 1597432029}
   - {fileID: 670923107}
   - {fileID: 8301083427434097451}
+<<<<<<< HEAD
   - {fileID: 4037004019647995519}
 <<<<<<< HEAD
 =======
   - {fileID: 5133011516292920040}
 >>>>>>> 47ad545fbbf693c758cb1f46f3b483710785dbc9
+=======
+  - {fileID: 1365760210}
+>>>>>>> parent of ebfbc81 (PowerUp Magnet)
