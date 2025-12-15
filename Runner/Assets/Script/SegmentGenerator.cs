@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class SegmentGenerator : MonoBehaviour
 {
+    [Header("Rotation Settings")]
+    public bool randomRotation = true;
+
+    [Range(0f, 360f)] public float minRotationY = 0f;
+    [Range(0f, 360f)] public float maxRotationY = 360f;
+
+    [Range(0f, 360f)] public float minRotationZ = 0f;
+    [Range(0f, 360f)] public float maxRotationZ = 360f;
+
     public GameObject[] segement;
     [SerializeField] int zPos = 50;
     [SerializeField] bool creatingSegment = false;
@@ -15,6 +24,18 @@ public class SegmentGenerator : MonoBehaviour
     public float powerUpSpawnChance = 0.2f;
     public float proteinsSpawnY = -5.0f;
     public float magnetSpawnY = -7.0f;
+
+
+    Quaternion GetRandomRotation()
+    {
+        if (!randomRotation)
+            return Quaternion.identity;
+
+        float rotY = Random.Range(minRotationY, maxRotationY);
+        float rotZ = Random.Range(minRotationZ, maxRotationZ);
+
+        return Quaternion.Euler(0f, rotY, rotZ);
+    }
 
 
     void Update()
@@ -56,7 +77,8 @@ public class SegmentGenerator : MonoBehaviour
             float powerUpLaneX = lanePositions[Random.Range(0, lanePositions.Length)];
             float powerUpZOffset = Random.Range(15f, 35f);
             Vector3 powerUpSpawnPos = new Vector3(powerUpLaneX, spawnY, zPos + powerUpZOffset);
-            Instantiate(selectedPrefab, powerUpSpawnPos, Quaternion.identity);
+            Instantiate(selectedPrefab, powerUpSpawnPos, GetRandomRotation());
+
         }
 
         int obstacleCount = Random.Range(6, 10); 
@@ -70,7 +92,8 @@ public class SegmentGenerator : MonoBehaviour
 
             Vector3 spawnPos = new Vector3(laneX, -5f, zPos + zOffset);
 
-            Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
+            Instantiate(obstaclePrefab, spawnPos, GetRandomRotation());
+
         }
 
         zPos += 50;

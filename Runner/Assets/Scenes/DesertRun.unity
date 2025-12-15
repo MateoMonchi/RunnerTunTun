@@ -6929,7 +6929,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5b86f484d9ed93445bf8e97be696d60a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ae443ff0d6c1f5d4ea308dbd3f47acda, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.15
   m_Pitch: 1
@@ -7855,7 +7855,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d3cd1a4b5408103409723d675caaf054, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c16edd8d803818c4583930af3d3f910f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
@@ -10025,6 +10025,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e173db45c2e9b42a2e7662a5922c09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randomRotation: 1
+  minRotationY: 270
+  maxRotationY: 270
+  minRotationZ: 0
+  maxRotationZ: 0
   segement:
   - {fileID: 1270293407}
   - {fileID: 908212307}
@@ -10032,7 +10037,7 @@ MonoBehaviour:
   zPos: 35
   creatingSegment: 0
   segmentNum: 0
-  obstaclePrefab: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
+  obstaclePrefab: {fileID: 2038594818}
   powerUpPrefab: {fileID: 896318181403285778, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
   magnetPowerUpPrefab: {fileID: 2070817285007123726, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
   powerUpSpawnChance: 1
@@ -19413,6 +19418,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4063541705819162, guid: 0761e9c9debdfd34fa20f5859c6f08ff, type: 3}
   m_PrefabInstance: {fileID: 356604371}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2038594818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6655636356945380360, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+  m_PrefabInstance: {fileID: 6695469199691337119}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2042328545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20914,7 +20924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
       propertyPath: m_TagString
