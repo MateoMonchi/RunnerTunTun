@@ -10,8 +10,11 @@ public class SegmentGenerator : MonoBehaviour
     [SerializeField] int segmentNum;
     public GameObject obstaclePrefab;
     public GameObject powerUpPrefab;
+    public GameObject magnetPowerUpPrefab;
     [Range(0f, 1f)]
     public float powerUpSpawnChance = 0.2f;
+    public float proteinsSpawnY = -5.0f;
+    public float magnetSpawnY = -7.0f;
 
 
     void Update()
@@ -30,12 +33,30 @@ public class SegmentGenerator : MonoBehaviour
 
         float[] lanePositions = { -7f, -4f, -1f };
 
-        if (Random.value < powerUpSpawnChance)
+        if(Random.value < powerUpSpawnChance)
         {
+            List<GameObject> powerUpPool = new List<GameObject>
+            {
+                powerUpPrefab,      
+                magnetPowerUpPrefab  
+            };
+
+            GameObject selectedPrefab = powerUpPool[Random.Range(0, powerUpPool.Count)];
+
+            float spawnY;
+            if (selectedPrefab == powerUpPrefab)
+            {
+                spawnY = proteinsSpawnY;
+            }
+            else 
+            {
+                spawnY = magnetSpawnY;
+            }
+
             float powerUpLaneX = lanePositions[Random.Range(0, lanePositions.Length)];
-            float powerUpZOffset = Random.Range(15f, 35f); 
-            Vector3 powerUpSpawnPos = new Vector3(powerUpLaneX, -5f, zPos + powerUpZOffset); 
-            Instantiate(powerUpPrefab, powerUpSpawnPos, Quaternion.identity);
+            float powerUpZOffset = Random.Range(15f, 35f);
+            Vector3 powerUpSpawnPos = new Vector3(powerUpLaneX, spawnY, zPos + powerUpZOffset);
+            Instantiate(selectedPrefab, powerUpSpawnPos, Quaternion.identity);
         }
 
         int obstacleCount = Random.Range(6, 10); 

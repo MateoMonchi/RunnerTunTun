@@ -18,7 +18,7 @@ public class MagnetPowerUp : MonoBehaviour
             player.ActivateMagnetPowerUp(duration, magnetRadius);
 
             
-            Destroy(gameObject);
+            Destroy(gameObject, 0.01f);
         }
     }
 }

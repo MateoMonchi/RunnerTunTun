@@ -7541,11 +7541,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
   m_PrefabInstance: {fileID: 8301083427434097451}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &722936758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 896318181403285778, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
-  m_PrefabInstance: {fileID: 4037004019647995519}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &725058791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4340555707901484, guid: 48ad265f338caaf4da3a864816595b22, type: 3}
@@ -10043,8 +10038,11 @@ MonoBehaviour:
   creatingSegment: 0
   segmentNum: 0
   obstaclePrefab: {fileID: 720812103}
-  powerUpPrefab: {fileID: 722936758}
-  powerUpSpawnChance: 0.2
+  powerUpPrefab: {fileID: 896318181403285778, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
+  magnetPowerUpPrefab: {fileID: 2070817285007123726, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
+  powerUpSpawnChance: 1
+  proteinsSpawnY: -5
+  magnetSpawnY: -7
 --- !u!4 &1010310469
 Transform:
   m_ObjectHideFlags: 0
@@ -20743,11 +20741,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 521164180140852136, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.15
+      value: -16.18
       objectReference: {fileID: 0}
     - target: {fileID: 521164180140852136, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.03
+      value: -10.78
       objectReference: {fileID: 0}
     - target: {fileID: 521164180140852136, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20889,11 +20887,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1726802758627426228, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.08
+      value: -2.82
       objectReference: {fileID: 0}
     - target: {fileID: 1726802758627426228, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.11
+      value: -11.155
       objectReference: {fileID: 0}
     - target: {fileID: 1726802758627426228, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20930,6 +20928,22 @@ PrefabInstance:
     - target: {fileID: 2070817285007123726, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
       propertyPath: m_Name
       value: Iman
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178166188981300002, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
+      propertyPath: m_Size.y
+      value: 5.4445295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178166188981300002, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
+      propertyPath: m_Size.z
+      value: 1.375521
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178166188981300002, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
+      propertyPath: m_Center.y
+      value: 7.817664
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178166188981300002, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
+      propertyPath: m_Center.z
+      value: -0.18776019
       objectReference: {fileID: 0}
     - target: {fileID: 9178166188981300002, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
       propertyPath: m_IsTrigger
