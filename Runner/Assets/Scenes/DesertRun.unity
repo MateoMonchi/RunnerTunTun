@@ -7536,11 +7536,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01bdef6597b249b44a9530ab656246fc, type: 3}
---- !u!1 &720812103 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
-  m_PrefabInstance: {fileID: 8301083427434097451}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &725058791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4340555707901484, guid: 48ad265f338caaf4da3a864816595b22, type: 3}
@@ -10037,7 +10032,7 @@ MonoBehaviour:
   zPos: 35
   creatingSegment: 0
   segmentNum: 0
-  obstaclePrefab: {fileID: 720812103}
+  obstaclePrefab: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
   powerUpPrefab: {fileID: 896318181403285778, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
   magnetPowerUpPrefab: {fileID: 2070817285007123726, guid: e0bc17200989ff44c9c9bbf0ea072621, type: 3}
   powerUpSpawnChance: 1
@@ -20788,6 +20783,103 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c5bd5388bb2a6f45a59cdab5b920bb1, type: 3}
+--- !u!1001 &6695469199691337119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Size.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Size.y
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Size.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Center.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 245892811644393312, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 986633058164603057, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 1630259782}
+    - target: {fileID: 986633058164603057, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: mainCam
+      value: 
+      objectReference: {fileID: 963194225}
+    - target: {fileID: 986633058164603057, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: thePlayer
+      value: 
+      objectReference: {fileID: 2011927540}
+    - target: {fileID: 986633058164603057, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: collisonFX
+      value: 
+      objectReference: {fileID: 1832068134}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.542
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6275276439224311474, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655636356945380360, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
+      propertyPath: m_Name
+      value: RoboSeguridad
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd932edc9d6ff20428b4b5dff080e4ac, type: 3}
 --- !u!1001 &8301083427434097451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20819,6 +20911,10 @@ PrefabInstance:
     - target: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
       propertyPath: m_Name
       value: Obstaculo01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1133339682313052251, guid: b312a15cef2dabc499b925ba9a455410, type: 3}
       propertyPath: m_TagString
@@ -20970,3 +21066,4 @@ SceneRoots:
   - {fileID: 8301083427434097451}
   - {fileID: 4037004019647995519}
   - {fileID: 8740243630085889815}
+  - {fileID: 6695469199691337119}
